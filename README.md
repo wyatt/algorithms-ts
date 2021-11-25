@@ -1,15 +1,21 @@
-# typescript-starter
-An empty project for experimenting with TypeScript development on the school computers
+# algorithms-ts
+[![Testing](https://github.com/wyatt/algorithms-ts/actions/workflows/main.yml/badge.svg)](https://github.com/wyatt/algorithms-ts/actions/workflows/main.yml)
 
-# Initial Instal
+A project to build searching and sorting algorithms, with test suites.
+
+# Usage
 ```bash
-npm install
+yarn
+yarn test
 ```
 
-# Running the main index.ts file
+# Current algorithms
 
-Upon running this command, TypeScript will build the JavaScript files, then run dist/index.js using node.
-
-```bash 
-npm start
-```
+## Searching
+- [x] Linear search
+- [x] Binary search
+## Sorting
+- [ ] Bubble sort
+- [ ] Insertion sort
+- [ ] Merge sort
+- [ ] Quick sort 
